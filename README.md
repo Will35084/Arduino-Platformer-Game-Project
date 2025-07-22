@@ -16,6 +16,10 @@ Hardware Requirements
 - Joystick module
 - Push button
 - Passive Buzzer for sound effects
+
+Software Requirements
+- LiquidCrystalI2C Library
+- I used Platformio on VSCode. Create a project for the specified board, install the LiquidCrystalI2C library, add the scripts to the src folder, and you're good to go
   
 Pin Connections:
 #define BUZZER_PIN 8
